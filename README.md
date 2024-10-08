@@ -324,15 +324,17 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
 
 A single page report was created on Power BI Desktop & it was then published to Power BI Service.
 
-Following inferences can be drawn from the dashboard;
+Following inferences can be drawn from the dashboard.
 
-### [1] YTD sales for year 2023 is £370M and there is a noticeable upward trend in sales, with more frequent peaks in the latter part of the timeline, indicating increased sales activity as time progresses. 
-Sales have been increased by 23.5% compared o last years.
+### [1] YTD Sales Trend. 
+ 
+YTD sales for year 2023 is £370M and there is a noticeable upward trend in sales, with more frequent peaks in the latter part of the timeline, indicating increased sales activity as time progresses. 
+Sales have been increased by 23.5% compared to last years.
 
-Average price of the car stand at £28K with London having the highest average price of £28.3k and Birmingham having lowest avg price of £27.8k.
+Average price of the car stands at £28K with London having the highest average price of £28.3k, Birmingham having lowest avg price of £27.8k.
 
            
-### [2] YTD Sales by body style
+### [2] YTD Sales by body style.
 
     a) SUV - 26.9%
     b) Hatchback  - 22.3%
@@ -340,79 +342,76 @@ Average price of the car stand at £28K with London having the highest average p
     d) Passenger - 17%
     e) Convertible - 13.8%
 
- Sales are higher for SUV and Hatchback and saloon are the preferred body types for the year 2023.There may be opportunities to increase sales for 'Convertible' and 'Passenger' body styles, which have lower sales counts.
+ Sales are higher for SUV,Hatchback and saloon body types, these are the preferred body types for the year 2023.There may be opportunities to increase sales for 'Convertible' and 'Passenger' body styles, which account for lower sales.
   
-### [3]YTD Sales by car color 
+### [3] YTD Sales by car color. 
   
       1.1) YTD sales contribution by pale white cars - 47%
       1.2) YTD sales contribution by black cars - 34%
       1.3) YTD sales contribution by red cars - 19%
 
-    ##Average price by color
+### Average price by color.
 
-   2.1)The average price of Pale white car is £27.4K
-   2.2)The average price of Black car is £28.6K
-   2.3)The average price if Red car is £28.4K
+    2.1) The average price of Pale white car is £27.4K
+    2.2) The average price of Black car is £28.6K
+    2.3) The average price if Red car is £28.4K
 
-Conclusion and Insights
-White cars have the highest sales, followed by black, and then red cars. This higher sales might be associated with lower price of the car .
+Conclusion and Insights:
+
+White cars have the highest sales, followed by black, and red cars. This higher sales might be associated with lower price of the car .
 There are noticeable differences in average prices based on color. black cars are priced higher on average compared to red and Pale White cars.
 
+ ### [4] "Total Cars sold" Regional Trends.
 
- ### [4]Cars sold Regional Trends
+    London -17.31%
+    Birmingham -15.93%
+    Manchester- 14.42%
+    Leeds- 13.19%
+    Oxford- 13.12%
+    Liverpool -13.04%
+    Glasgow	-12.99%
 
-London -17.31%
-Birmingham -15.93%
-Manchester- 14.42%
-Leeds- 13.19%
-Oxford- 13.12%
-Liverpool -13.04%
-Glasgow	-12.99%
-
-London tends to have higher car sold followed by Birmingham ,Manchester Leeds , Oxford , Liverpool and Glasgow.
+London tends to have higher car sold followed by Birmingham ,Manchester, Leeds , Oxford , Liverpool and Glasgow.
  
 Higher sales might be related to other factor like population density and area size.
          
-### Transmission Type
+### [5] Transmission Type.
 
-3.1) 48 % of cars sold (with YTD sales £176M) corresponds to car type 'Manual'.
+    1) 48 % of cars sold (with YTD sales £176M) corresponds to car type 'Manual'.
 
-3.2) 52 % car sold (with YTD sales £194M) corresponds to car type 'Automatic'.
+    2) 52 % car sold (with YTD sales £194M) corresponds to car type 'Automatic'.
        
-       thus, more customers are showing interest for automatic cars.
+thus, more customers are showing interest for automatic cars.
 
-### Type of Camshaft
+### [6] Type of Camshaft impact on sales.
 
 The average price of Double Overhead Camshaft car is approximately £28.1K.It accounts for £194M annual sales.
 
 The average price of Overhead Camshaft car is approximately £27.9K.It accounts for £177M annual sales.
 
-Conclusion and Insights
+Conclusion and Insights:
 
-Cars with a Double Overhead Camshaft tend to be priced higher than those with an Overhead Camshaft.Sales are higher for Double Overhead Camshaft car compared to Overhead Camshaft cars.
+Cars with a Double Overhead Camshaft tend to be priced higher than those with an Overhead Camshaft.Sales are higher for Double Overhead Camshaft cars compared to Overhead Camshaft cars.
 
-### Top5 performing Dealer with 5% of contribution to total YTD sales
+### [7] Top5 performing dealers with 5% of contribution to total YTD sales.
 
-1.Rabun Used Car Sales
-2.Progressive Shippers Cooperative Association No
-3.Tri-State Mack Inc
-4.Saab-Belle Dodge
-5.Star Enterprises Inc
+    1.Rabun Used Car Sales
+    2.Progressive Shippers Cooperative Association No
+    3.Tri-State Mack Inc
+    4.Saab-Belle Dodge
+    5.Star Enterprises Inc
 
- ### [5] Top 10 companies with >4% contribution to total YTD sales
+ ### [8] Top 5 companies with >4% contribution to total YTD sales.
 
-Chevrolet
-Ford
-Dodge
-Oldsmobile
-Mercedes-B
-Mitsubishi
-Volkswagen
-Toyota
-Chrysler
+    1.Chevrolet
+    2.Ford
+    3.Dodge
+    4.Oldsmobile
+    5.Mercedes-B
 
-Monthly sales trend with Gender
+### [9] Monthly sales trend by Gender.
 
-Sales tends to be higher during the second half of the years with December showing highest number of sales.
+Sales tends to be higher during the second half of the years with December month showing highest number of sales during year 2023.
 Male contributes to 77% of total sales as compared to Female papulation
-thus, male papulation showing interest to buy cars as compared to Female papulation.
+thus, male papulation shows more interest to buy cars as compared to female papulation.
+
