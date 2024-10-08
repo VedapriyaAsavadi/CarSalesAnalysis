@@ -8,7 +8,7 @@ This dashboard helps to effectively track and analyse sales performance of cars 
 
 There is a noticeable upward trend in sales, with more frequent peaks in the latter part of the timeline. Data shows that 'SUV' and 'Hatchback' are the most popular body styles in terms of sales.
 
-Major cities likes London ,Birmingham and Manchester have higher sales compared to smaller cities. There are noticeable differences in average prices based on color. Red cars are priced higher on average compared to Black and Pale White cars.
+Major cities like London, Birmingham, and Manchester consistently outperform smaller cities in terms of car sales. There are notable price disparities based on color, with black cars commanding higher average prices than red or pale white models.
 
 ### Steps followed 
 
@@ -320,16 +320,16 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
 
 # Insights
 
-A single page report was created on Power BI Desktop & it was then published to Power BI Service.
+A single page report was created using Power BI Desktop & published to Power BI Service.
 
 Following inferences can be drawn from the dashboard.
 
 ### [1] YTD Sales Trend
  
 YTD sales for year 2023 is £370M and there is a noticeable upward trend in sales, with more frequent peaks in the latter part of the timeline, indicating increased sales activity as time progresses. 
-Sales have been increased by 23.5% compared to last years.
+Sales increased by 23.5% in 2023 compared to the previous year.
 
-Average price of the car stands at £28K with London having the highest average price of £28.3k, Birmingham having lowest avg price of £27.8k.
+The average price of a car in the UK is £28,000. However, there are regional variations in prices. London has the highest average price at £28.3k, while Birmingham has the lowest average price at £27.8K.
 
            
 ### [2] YTD Sales by body style
@@ -340,7 +340,7 @@ Average price of the car stands at £28K with London having the highest average 
     d) Passenger - 17%
     e) Convertible - 13.8%
 
- Sales are higher for SUV,Hatchback and saloon body types, these are the preferred body types for the year 2023.There may be opportunities to increase sales for 'Convertible' and 'Passenger' body styles, which account for lower sales.
+ SUV, hatchback, and saloon body types have dominated sales in 2023. Convertible and passenger vehicles could benefit from increased marketing or promotional efforts to boost sales.
   
 ### [3] YTD Sales by car color
   
@@ -356,8 +356,8 @@ Average price of the car stands at £28K with London having the highest average 
 
 Conclusion and Insights:
 
-White cars have the highest sales, followed by black, and red cars. This higher sales might be associated with lower price of the car .
-There are noticeable differences in average prices based on color. black cars are priced higher on average compared to red and Pale White cars.
+White cars are the most popular choice, followed by black and red. This higher demand may be correlated with lower prices.
+There are noticeable differences in average prices based on color. Black cars tend to command higher average prices than red and pale white vehicles.
 
  ### [4] "Total Cars sold" Regional Trends
 
@@ -369,9 +369,7 @@ There are noticeable differences in average prices based on color. black cars ar
     Liverpool -13.04%
     Glasgow	-12.99%
 
-London tends to have higher car sold followed by Birmingham ,Manchester, Leeds , Oxford , Liverpool and Glasgow.
- 
-Higher sales might be related to other factor like population density and area size.
+ London, Birmingham, Manchester, Leeds, Oxford, Liverpool, and Glasgow lead in car sales, with London at the forefront. Factors such as population density and city size may influence these sales figures.
          
 ### [5] Transmission Type
 
@@ -383,13 +381,13 @@ thus, more customers are showing interest for automatic cars.
 
 ### [6] Type of Camshaft impact on sales
 
-The average price of Double Overhead Camshaft car is approximately £28.1K.It accounts for £194M annual sales.
+The average price of Double Overhead Camshaft (DOHC) car is approximately £28.1K.It accounts for £194M annual sales.
 
-The average price of Overhead Camshaft car is approximately £27.9K.It accounts for £177M annual sales.
+The average price of Overhead Camshaft (OHC) car is approximately £27.9K.It accounts for £177M annual sales.
 
 Conclusion and Insights:
 
-Cars with a Double Overhead Camshaft tend to be priced higher than those with an Overhead Camshaft.Sales are higher for Double Overhead Camshaft cars compared to Overhead Camshaft cars.
+The market for DOHC cars is stronger than for OHC cars, even though DOHC vehicles generally come at a higher cost. This indicates that consumers value the performance advantages offered by DOHC engines.
 
 ### [7] Top5 performing dealers with 5% of contribution to total YTD sales
 
@@ -409,7 +407,6 @@ Cars with a Double Overhead Camshaft tend to be priced higher than those with an
 
 ### [9] Monthly sales trend by Gender
 
-Sales tends to be higher during the second half of the years with December month showing highest number of sales during year 2023.
-Male contributes to 77% of total sales as compared to Female papulation
-thus, male papulation shows more interest to buy cars as compared to female papulation.
+Sales typically peak in the latter half of the year, with December being the most popular month for car purchases in 2023.
+Men account for 77% of total car sales, significantly outnumbering women. This suggests a stronger preference for car ownership among the male population.
 
