@@ -43,7 +43,7 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
   
   (3) Details
 
-     <img width="79" alt="Navigator" src="https://github.com/user-attachments/assets/968f2e0b-6fba-4526-8ec8-79dd61e9db3a">
+     <img width="134" alt="Screenshot 2024-10-08 102618" src="https://github.com/user-attachments/assets/69f362e0-979a-4add-9070-8d193c3b1238">
 
 
 - Step 14 : Following KPI's added to Yearly Overview tab
