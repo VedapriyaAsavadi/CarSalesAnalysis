@@ -348,7 +348,7 @@ The average price of a car in the UK is £28,000. However, there are regional va
       1.2) YTD sales contribution by black cars - 34%
       1.3) YTD sales contribution by red cars - 19%
 
-### Average price by color
+  #### Average price by color
 
     2.1) The average price of Pale white car is £27.4K
     2.2) The average price of Black car is £28.6K
