@@ -155,11 +155,11 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
  
         YTD Total Sales = TOTALYTD(SUM(Car_Sales_Data[Price (£)]),Calender_Table[Date])
  
- A card visual was used to represent this YTD Total Sales
+   A card visual was used to represent this YTD Total Sales
  
- Snap of YTD Total Sales
+   Snap of YTD Total Sales
  
-<img width="121" alt="Screenshot 2024-10-04 212123" src="https://github.com/user-attachments/assets/a38b4c7a-0b67-4424-b4af-8938cc9ec51b">
+     <img width="121" alt="Screenshot 2024-10-04 212123" src="https://github.com/user-attachments/assets/a38b4c7a-0b67-4424-b4af-8938cc9ec51b">
 
  
  - Step 18 : New measure was created to calculate Sale Difference .
@@ -171,10 +171,10 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
        PTYD Total Sales = CALCULATE(SUM(Car_Sales_Data[Price (£)]),SAMEPERIODLASTYEAR(Calender_Table[Date]))
 
     
- A card visual was used to represent this Sale Difference.
+   A card visual was used to represent this Sale Difference.
  
  
- <img width="95" alt="Screenshot2" src="https://github.com/user-attachments/assets/02e9a60c-5c94-42ed-9569-d7abcf57698c">
+    <img width="95" alt="Screenshot2" src="https://github.com/user-attachments/assets/02e9a60c-5c94-42ed-9569-d7abcf57698c">
 
 - Step 19 : New measure was created to calculate YOY Sales Growth%  .
  
@@ -183,10 +183,10 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
       YOY Sales Growth% = Car_Sales_Data[Sale Difference]/Car_Sales_Data[PTYD Total Sales]
 
     
- A card visual was used to represent this Sale Difference.
+   A card visual was used to represent this Sale Difference.
  
  
- <img width="92" alt="Screenshot3" src="https://github.com/user-attachments/assets/b8a1d769-cab2-42ce-9b01-aed1ed60cba1">
+   <img width="92" alt="Screenshot3" src="https://github.com/user-attachments/assets/b8a1d769-cab2-42ce-9b01-aed1ed60cba1">
 
 - Step 20 : New measure was created to calculate YTD Avg Price  .
  
@@ -196,9 +196,9 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
       Avg Price = SUM(Car_Sales_Data[Price (£)])/COUNT(Car_Sales_Data[Car_id])
 
     
- A card visual was used to represent this YTD Avg Price.
+   A card visual was used to represent this YTD Avg Price.
  
- <img width="107" alt="Screenshot 4" src="https://github.com/user-attachments/assets/31baf11e-e414-4582-88d9-017fc1c0834c">
+   <img width="107" alt="Screenshot 4" src="https://github.com/user-attachments/assets/31baf11e-e414-4582-88d9-017fc1c0834c">
 
 - Step 21 : New measure was created to calculate Avg Price Diff  .
  
@@ -209,10 +209,10 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
       PYTD Avg Price = CALCULATE([Avg Price],SAMEPERIODLASTYEAR(Calender_Table[Date]))
 
     
- A card visual was used to represent this Avg Price Diff.
+   A card visual was used to represent this Avg Price Diff.
  
  
- <img width="82" alt="Screenshot 5" src="https://github.com/user-attachments/assets/bd65fffe-dc0c-4540-9f63-39bcd172c11b">
+   <img width="82" alt="Screenshot 5" src="https://github.com/user-attachments/assets/bd65fffe-dc0c-4540-9f63-39bcd172c11b">
 
 - Step 22 : New measure was created to calculate YOY Avg Price Growth.
  
@@ -220,9 +220,9 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
  
        YOY Avg Price Growth = [Avg Price Diff]/[PYTD Avg Price]
     
- A card visual was used to represent this YOY Avg Price Growth.
+   A card visual was used to represent this YOY Avg Price Growth.
  
-  <img width="98" alt="Screenshot 6" src="https://github.com/user-attachments/assets/8d514591-62be-4bf2-877c-a6959edaff15">
+     <img width="98" alt="Screenshot 6" src="https://github.com/user-attachments/assets/8d514591-62be-4bf2-877c-a6959edaff15">
 
 - Step 23 : New measure was created to calculate YTD Cars Sold.
  
@@ -231,10 +231,10 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
       YTD Cars Sold = TOTALYTD(COUNT(Car_Sales_Data[Car_id]),Calender_Table[Date])
 
     
- A card visual was used to represent this YTD Cars Sold.
+  A card visual was used to represent this YTD Cars Sold.
  
  
- <img width="104" alt="Screenshot 7" src="https://github.com/user-attachments/assets/b3ae1a95-8521-4749-9c4f-fd88ca6985ab">
+    <img width="104" alt="Screenshot 7" src="https://github.com/user-attachments/assets/b3ae1a95-8521-4749-9c4f-fd88ca6985ab">
 
 - Step 24 : New measure was created to calculate Cars Sold Diff.
  
@@ -243,10 +243,10 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
        Cars Sold Diff = [YTD Cars Sold]-[PYTD Cars Sold] where
        PYTD Cars Sold = CALCULATE(COUNT(Car_Sales_Data[Car_id]),SAMEPERIODLASTYEAR(Calender_Table[Date]))
    
- A card visual was used to represent this Cars Sold Diff.
+  A card visual was used to represent this Cars Sold Diff.
  
  
- <img width="79" alt="Screenshot8" src="https://github.com/user-attachments/assets/f30fa0db-f59c-4df4-9987-a6b99518f0e0">
+    <img width="79" alt="Screenshot8" src="https://github.com/user-attachments/assets/f30fa0db-f59c-4df4-9987-a6b99518f0e0">
  
 - Step 25 : New measure was created to calculate YOY Car Sold Growth.
  
@@ -254,9 +254,9 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
 
        YOY Car Sold Growth = Car_Sales_Data[Cars Sold Diff]/[PYTD Cars Sold]
     
- A card visual was used to represent this YOY Car Sold Growth.
+   A card visual was used to represent this YOY Car Sold Growth.
  
- <img width="97" alt="Screenshot9" src="https://github.com/user-attachments/assets/0616ed99-5fd3-454f-97b6-ad8ed44d386b">
+    <img width="97" alt="Screenshot9" src="https://github.com/user-attachments/assets/0616ed99-5fd3-454f-97b6-ad8ed44d386b">
   
 - Step 26 : New measure was created to calculate MTD Total Sales.
  
@@ -268,9 +268,9 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
       MTD KPI = CONCATENATE("MTD Total Sales : ",FORMAT([MTD Total Sales]/1000000,"£0.00M"))
 
     
- A card visual was used to represent this MTD Total Sales.
+   A card visual was used to represent this MTD Total Sales.
  
-  <img width="163" alt="MTDtotalsales" src="https://github.com/user-attachments/assets/6a5ef949-04bb-4d29-bbe3-ce6527e3e03c">
+     <img width="163" alt="MTDtotalsales" src="https://github.com/user-attachments/assets/6a5ef949-04bb-4d29-bbe3-ce6527e3e03c">
  
 - Step 27 : New measure was created to calculate  MTD Avg Price.
  
@@ -282,9 +282,9 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
       MTD Avg KPI = CONCATENATE("MTD Avg Price : ",FORMAT([MTD Avg Price]/1000,"£0.00K"))
 
     
- A card visual was used to represent this MTD Avg Price.
+  A card visual was used to represent this MTD Avg Price.
 
-  <img width="161" alt="MTDAvgPrice" src="https://github.com/user-attachments/assets/369ce3f6-eca4-485c-b015-b8a30859a872">
+     <img width="161" alt="MTDAvgPrice" src="https://github.com/user-attachments/assets/369ce3f6-eca4-485c-b015-b8a30859a872">
 
 - Step 28 : New measure was created to calculate  MTD Cars Sold.
  
@@ -292,17 +292,17 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
 
       MTD Cars Sold = TOTALMTD(COUNT(Car_Sales_Data[Car_id]),Calender_Table[Date])
     
- A card visual was used to represent this MTD Cars Sold.
+   A card visual was used to represent this MTD Cars Sold.
 
-  <img width="156" alt="MTDcarssold" src="https://github.com/user-attachments/assets/eba1aa5f-47a1-4580-8d18-bac91b980cc9">
+     <img width="156" alt="MTDcarssold" src="https://github.com/user-attachments/assets/eba1aa5f-47a1-4580-8d18-bac91b980cc9">
   
  - Step 29 : A button was added to reset all the slicers selected.
 
-  <img width="114" alt="clearbutton" src="https://github.com/user-attachments/assets/dc727b8a-dda8-44ea-b624-1af1b1c9fc3b">
+    <img width="114" alt="clearbutton" src="https://github.com/user-attachments/assets/dc727b8a-dda8-44ea-b624-1af1b1c9fc3b">
         
  - Step 30 : The report was then published to Power BI Service.
  
- <img width="358" alt="publishreport" src="https://github.com/user-attachments/assets/e870fe65-ef45-4cf7-9218-10e58be7c4d8">
+   <img width="358" alt="publishreport" src="https://github.com/user-attachments/assets/e870fe65-ef45-4cf7-9218-10e58be7c4d8">
 
 # Snapshot of Dashboard (Power BI Service)
 
