@@ -174,7 +174,7 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
  A card visual was used to represent this Sale Difference.
  
  
- <img width="65" alt="YOYgrowth" src="https://github.com/user-attachments/assets/720b770f-fff3-4681-bba6-bd96972e572b">
+ <img width="95" alt="Screenshot2" src="https://github.com/user-attachments/assets/02e9a60c-5c94-42ed-9569-d7abcf57698c">
 
 - Step 19 : New measure was created to calculate YOY Sales Growth%  .
  
@@ -186,7 +186,7 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
  A card visual was used to represent this Sale Difference.
  
  
- <img width="77" alt="%YOYgrowth" src="https://github.com/user-attachments/assets/a91c68ce-a35b-4a03-8da3-a5f999534276">
+ <img width="92" alt="Screenshot3" src="https://github.com/user-attachments/assets/b8a1d769-cab2-42ce-9b01-aed1ed60cba1">
 
 - Step 20 : New measure was created to calculate YTD Avg Price  .
  
@@ -198,7 +198,7 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
     
  A card visual was used to represent this YTD Avg Price.
  
- <img width="95" alt="YTDavgPrice" src="https://github.com/user-attachments/assets/31eb4089-b1c8-4cef-97b2-7ac857b24ae8">
+ <img width="107" alt="Screenshot 4" src="https://github.com/user-attachments/assets/31baf11e-e414-4582-88d9-017fc1c0834c">
 
 - Step 21 : New measure was created to calculate Avg Price Diff  .
  
@@ -212,19 +212,17 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
  A card visual was used to represent this Avg Price Diff.
  
  
- <img width="67" alt="YOYAvgPriceGrowth" src="https://github.com/user-attachments/assets/a0ddcd46-5cca-4526-bab7-58f77522764d">
+ <img width="82" alt="Screenshot 5" src="https://github.com/user-attachments/assets/bd65fffe-dc0c-4540-9f63-39bcd172c11b">
 
 - Step 22 : New measure was created to calculate YOY Avg Price Growth.
  
   Following DAX expression was written to find YOY Avg Price Growth,
  
        YOY Avg Price Growth = [Avg Price Diff]/[PYTD Avg Price]
-
     
  A card visual was used to represent this YOY Avg Price Growth.
  
- 
-  <img width="79" alt="%YOYAvgPricegrowth" src="https://github.com/user-attachments/assets/92b01865-8e51-4a2a-8ccc-e0b6b31816cc">
+  <img width="98" alt="Screenshot 6" src="https://github.com/user-attachments/assets/8d514591-62be-4bf2-877c-a6959edaff15">
 
 - Step 23 : New measure was created to calculate YTD Cars Sold.
  
@@ -236,7 +234,7 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
  A card visual was used to represent this YTD Cars Sold.
  
  
- <img width="89" alt="YTDcarssold" src="https://github.com/user-attachments/assets/2e837fd1-88aa-4439-b09c-eeecb9f6dba7">
+ <img width="104" alt="Screenshot 7" src="https://github.com/user-attachments/assets/b3ae1a95-8521-4749-9c4f-fd88ca6985ab">
 
 - Step 24 : New measure was created to calculate Cars Sold Diff.
  
@@ -248,7 +246,7 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
  A card visual was used to represent this Cars Sold Diff.
  
  
- <img width="71" alt="CarssoldYOYgrowth" src="https://github.com/user-attachments/assets/ea396a31-80e0-4316-8fcd-4cbfd77227a1">
+ <img width="79" alt="Screenshot8" src="https://github.com/user-attachments/assets/f30fa0db-f59c-4df4-9987-a6b99518f0e0">
  
 - Step 25 : New measure was created to calculate YOY Car Sold Growth.
  
@@ -258,7 +256,7 @@ Major cities likes London ,Birmingham and Manchester have higher sales compared 
     
  A card visual was used to represent this YOY Car Sold Growth.
  
-  <img width="78" alt="Carssold%YOYgrowth" src="https://github.com/user-attachments/assets/16c876d7-00e6-4f7d-9090-a3715368b9f4">
+ <img width="97" alt="Screenshot9" src="https://github.com/user-attachments/assets/0616ed99-5fd3-454f-97b6-ad8ed44d386b">
   
 - Step 26 : New measure was created to calculate MTD Total Sales.
  
